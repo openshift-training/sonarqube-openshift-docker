@@ -28,6 +28,7 @@ objects:
   kind: Route
   metadata:
     annotations:
+      kubernetes.io/tls-acme: 'true'
       description: Route for SonarQube's http service.
     name: sonarqube
     labels:
